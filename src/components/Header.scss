@@ -1,0 +1,46 @@
+@import ".././vars/_colors.scss";
+.homeis-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+
+}
+
+.homeis-header {
+  height: 80px;
+  padding: 35px 17px 5px 70px;
+  color: $b30;
+  text-align: left;
+  font-size:14px;
+  border-bottom: 1px solid $b60;
+  border-top: 2px solid $b60
+}
+
+.homeis-logo {
+  height: 30px;
+}
+
+.homeis-menu {
+  list-style: none;
+  float: right;
+  li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: inherit;
+      &[role=button] {
+        padding: 7px 15px;
+        background: $green;
+        border-radius: 7px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

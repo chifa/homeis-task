@@ -14,8 +14,11 @@
 .App-title {
   font-size: 1.5em; }
 
-.App-intro {
+.main-content {
   font-size: large; }
+  .main-content > div {
+    display: inline-grid;
+    padding: 20px 40px; }
 
 @keyframes App-logo-spin {
   from {
